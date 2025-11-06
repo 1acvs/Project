@@ -5,3 +5,12 @@
   outline: 1px ;
   background-color: #6ba7dc;
 }
+
+.Countdown{
+  margin: 0 auto;
+  padding: ;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
