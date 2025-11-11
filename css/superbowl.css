@@ -80,6 +80,12 @@ body {
   aspect-ratio: 800 / 345;
 }
 
+.moment-rams {
+  background-image: url(../Links/NFLTeamLogos/Rams/NFL_Rams_logo.svg.png);
+  background-size: 20%;
+  background-color: rgba(0, 34, 68, 0.75);
+}
+
 .moment img.moment-sb-rams {
   aspect-ratio: 800 / 759;
 }
