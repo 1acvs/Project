@@ -80,6 +80,10 @@ body {
   aspect-ratio: 800 / 345;
 }
 
+.moment img.moment-sb-rams {
+  aspect-ratio: 800 / 759;
+}
+
 .moment h3 {
   max-width: 50%;
   font-family: "Black Ops One", system-ui;
