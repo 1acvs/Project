@@ -1,41 +1,36 @@
-
-
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 * {
   box-sizing: border-box;
   /* outline: 1px solid black; */
-  
 }
 
 body {
- background-color: #6ba7dc;
- margin: 0;
+  background-color: #6ba7dc;
+  margin: 0;
 }
 
-.Countdown{
+.Countdown {
   margin: 0 auto;
-  padding: ;
+  padding: 0;
   text-align: center;
   position: relative;
   z-index: 2;
 }
 
-#demo{
+#demo {
   background: #fff;
-            border: 6px solid #000;
-            padding: 40px 30px;
-            font-size: 3.5em;
-            font-weight: 900;
-            color: #000;
-            text-transform: uppercase;
-            letter-spacing: 8px;
-            box-shadow: 
-                12px 12px 0 0 #4ade80,
-                12px 12px 0 2px #000;
-            position: relative;
-            margin-bottom: 30px;
-            text-shadow: 
-                3px 3px 0 #4ade80;
-            line-height: 1.2;
+  border: 6px solid #000;
+  padding: 40px 30px;
+  font-size: 3.5em;
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  box-shadow: 12px 12px 0 0 #4ade80, 12px 12px 0 2px #000;
+  position: relative;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px 0 #4ade80;
+  line-height: 1.2;
 }
 
 .moments-grid {
@@ -48,12 +43,48 @@ body {
 
 .moment {
   flex: 1 1 50%;
-  background: red;
   padding: 2rem;
 
   display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: right 2rem center;
+  background-blend-mode: multiply;
 }
 
 .moment-gb {
-  background: rgba(32, 55, 49, 0.75);
+  background-image: url(../Links/NFLTeamLogos/Packers/packers-logo.png);
+  background-size: 40%;
+  background-color: rgba(32, 55, 49, 0.75);
+}
+
+.moment img {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+}
+
+.moment img.moment-sb-gb {
+  aspect-ratio: 800 / 265;
+}
+
+.moment-rs {
+  background-image: url(../Links/NFLTeamLogos/Redskins/Redskins\ Logo.png);
+  background-size: 40%;
+  background-color: rgba(252, 171, 26, 0.75);
+}
+
+.moment img.moment-sb-rs {
+  aspect-ratio: 800 / 345;
+}
+
+.moment h3 {
+  max-width: 50%;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  align-self: flex-start;
 }
