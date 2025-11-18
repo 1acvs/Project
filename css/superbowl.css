@@ -82,12 +82,35 @@ body {
 
 .moment-rams {
   background-image: url(../Links/NFLTeamLogos/Rams/NFL_Rams_logo.svg.png);
-  background-size: 20%;
+  background-size: 40%;
   background-color: rgba(0, 34, 68, 0.75);
 }
 
 .moment img.moment-sb-rams {
+  width: 30%;
   aspect-ratio: 500 / 474;
+}
+
+.moment-bills {
+  background-image: url(../Links/NFLTeamLogos/Bills/bills\ logo.png);
+  background-size: 40%;
+  background-color: rgba(0, 51, 141, 0.75);
+}
+
+.moment img.moment-sb-bills {
+  width: 25%;
+  aspect-ratio: 200 / 224;
+}
+
+.moment-nyg {
+  background-image: url(../Links/NFLTeamLogos/Giants/giants\ logo.png);
+  background-size: 40%;
+  background-color: rgba(11, 25, 101, 0.75);
+}
+
+.moment img.moment-sb-nyg {
+  width: 25%;
+  aspect-ratio: 400 / 452;
 }
 
 .moment img.moment-sb-kc {
