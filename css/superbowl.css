@@ -79,16 +79,9 @@ body {
   transition: opacity 1s ease, top 1s ease;
 }
 
-.moment-info .moment-gb {
-  background-color: rgba(32, 55, 49, 0.75);
-}
-
 .moment:hover .moment-info {
   opacity: 100%;
   top: 0;
-}
-
-.moment-info p {
 }
 
 .moment-gb {
@@ -176,6 +169,11 @@ body {
   background-color: rgba(0, 34, 68, 0.75);
 }
 
+.moment img.moment-sb-pts {
+  width: 25%;
+  aspect-ratio: 500 / 511;
+}
+
 .moment-phl {
   background-image: url(../Links/NFLTeamLogos/Eagles/Eagles\ logo.png);
   background-size: 40%;
@@ -194,6 +192,7 @@ body {
 }
 
 .moment img.moment-sb-kc {
+  width: 30%;
   aspect-ratio: 800 / 628;
 }
 
