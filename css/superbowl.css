@@ -5,16 +5,24 @@
 }
 
 body {
-  background-color: #6ba7dc;
+  background-color: rgb(107, 167, 220);
   margin: 0;
 }
 
+.logo {
+  position: relative;
+}
 .Countdown {
   margin: 0 auto;
   padding: 0;
   text-align: center;
   position: relative;
   z-index: 2;
+}
+
+.Countdown .SB60 {
+  width: 30%;
+  aspect-ratio: 330 / 270;
 }
 
 .tombrady img {
@@ -25,7 +33,11 @@ body {
   mask-repeat: no-repeat;
   mask-size: 100%;
   mask-position: left 10%;
-  /* margin-top: -10%; */
+  margin-top: -10%;
+}
+
+.tombrady p {
+  margin-top: -50%;
 }
 
 
@@ -108,13 +120,12 @@ body {
 .moment-info {
   position: absolute;
   background: white;
-  width: 100%;
 
   left: 0;
   height: 100%;
   overflow: hidden;
-  /* opacity: 0; */
-  /* top: 100%; */
+  opacity: 0;
+  top: 100%;
   transition: opacity 1s ease, top 1s ease;
 }
 
@@ -124,6 +135,12 @@ body {
 }
 
 .moment-info p {
+  max-width: 50%;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 250;
+  font-style: normal;
+  color: black;
+  align-self: flex-start;
 }
 
 .moment-gb {
@@ -211,6 +228,11 @@ body {
   background-color: rgba(0, 34, 68, 0.75);
 }
 
+.moment img.moment-sb-pts {
+  width: 25%;
+  aspect-ratio: 500 / 511;
+}
+
 .moment-phl {
   background-image: url(../Links/NFLTeamLogos/Eagles/Eagles\ logo.png);
   background-size: 40%;
@@ -229,6 +251,7 @@ body {
 }
 
 .moment img.moment-sb-kc {
+  width: 30%;
   aspect-ratio: 800 / 628;
 }
 
@@ -239,4 +262,12 @@ body {
   font-style: normal;
   color: #fff;
   align-self: flex-start;
+}
+
+.Halftime {
+  background-color: rgb(107, 167, 220);
+}
+
+.Halftime .moment-description {
+  background-color: rgb(107, 167, 220);
 }
