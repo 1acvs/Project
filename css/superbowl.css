@@ -69,13 +69,13 @@ body {
 
 .moment-info {
   position: absolute;
-  background: rgba(32, 55, 49, 0.75);
+  background: white;
 
   left: 0;
   height: 100%;
   overflow: hidden;
-  /* opacity: 0; */
-  /* top: 100%; */
+  opacity: 0;
+  top: 100%;
   transition: opacity 1s ease, top 1s ease;
 }
 
@@ -89,7 +89,7 @@ body {
   font-family: "Black Ops One", system-ui;
   font-weight: 250;
   font-style: normal;
-  color: #fff;
+  color: black;
   align-self: flex-start;
 }
 
