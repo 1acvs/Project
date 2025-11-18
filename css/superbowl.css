@@ -9,12 +9,20 @@ body {
   margin: 0;
 }
 
+.logo {
+  position: relative;
+}
 .Countdown {
   margin: 0 auto;
   padding: 0;
   text-align: center;
   position: relative;
   z-index: 2;
+}
+
+.Countdown .SB60 {
+  width: 30%;
+  aspect-ratio: 330 / 270;
 }
 
 .tombrady img {
@@ -25,7 +33,11 @@ body {
   mask-repeat: no-repeat;
   mask-size: 100%;
   mask-position: left 10%;
-  /* margin-top: -10%; */
+  margin-top: -10%;
+}
+
+.tombrady p {
+  margin-top: -50%;
 }
 
 #demo {
