@@ -17,6 +17,17 @@ body {
   z-index: 2;
 }
 
+.tombrady img {
+  aspect-ratio: 1920 / 2880;
+  width: 100%;
+  -webkit-mask-image: url(../Links/angle-mask.svg);
+  mask-image: url(../Links/angle-mask.svg);
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: left 10%;
+  /* margin-top: -10%; */
+}
+
 #demo {
   background: #fff;
   border: 6px solid #000;
@@ -31,7 +42,6 @@ body {
   margin-bottom: 30px;
   text-shadow: 3px 3px 0 #4ade80;
   line-height: 1.2;
-  
 }
 
 .moments-grid {
@@ -53,6 +63,29 @@ body {
   background-repeat: no-repeat;
   background-position: right 2rem center;
   background-blend-mode: multiply;
+
+  position: relative;
+}
+
+.moment-info {
+  position: absolute;
+  background: white;
+  width: 100%;
+
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  /* opacity: 0; */
+  /* top: 100%; */
+  transition: opacity 1s ease, top 1s ease;
+}
+
+.moment:hover .moment-info {
+  opacity: 100%;
+  top: 0;
+}
+
+.moment-info p {
 }
 
 .moment-gb {
