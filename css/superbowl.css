@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #6ba7dc;
+  background-color: rgb(107, 167, 220);
   margin: 0;
 }
 
@@ -82,6 +82,15 @@ body {
 .moment:hover .moment-info {
   opacity: 100%;
   top: 0;
+}
+
+.moment-info p {
+  max-width: 50%;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 250;
+  font-style: normal;
+  color: #fff;
+  align-self: flex-start;
 }
 
 .moment-gb {
@@ -203,4 +212,12 @@ body {
   font-style: normal;
   color: #fff;
   align-self: flex-start;
+}
+
+.Halftime {
+  background-color: rgb(107, 167, 220);
+}
+
+.Halftime .moment-description {
+  background-color: rgb(107, 167, 220);
 }
