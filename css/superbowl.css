@@ -69,8 +69,7 @@ body {
 
 .moment-info {
   position: absolute;
-  background: white;
-  width: 100%;
+  background: rgba(32, 55, 49, 0.75);
 
   left: 0;
   height: 100%;
@@ -78,6 +77,10 @@ body {
   /* opacity: 0; */
   /* top: 100%; */
   transition: opacity 1s ease, top 1s ease;
+}
+
+.moment-info .moment-gb {
+  background-color: rgba(32, 55, 49, 0.75);
 }
 
 .moment:hover .moment-info {
