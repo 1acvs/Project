@@ -40,7 +40,6 @@ body {
   margin-top: -50%;
 }
 
-
 .main-headercontent {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,19 +63,14 @@ body {
   transform: scale(1.05) rotate(2deg);
 }
 
-
-
-
 @keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
-
-
-
-
-
-
 
 #demo {
   background: #fff;
@@ -270,4 +264,9 @@ body {
 
 .Halftime .moment-description {
   background-color: rgb(107, 167, 220);
+}
+
+.Half-moment .img.mj {
+  aspect-ratio: 500 / 498;
+  width: 50%;
 }
