@@ -113,6 +113,49 @@ body {
   aspect-ratio: 400 / 452;
 }
 
+.moment-rvn {
+  background-image: url(../Links/NFLTeamLogos/Ravens/ravens\ logo.png);
+  background-size: 40%;
+  background-color: rgba(36, 19, 95, 0.75);
+}
+.moment img.moment-sb-rvn {
+  width: 25%;
+  aspect-ratio: 500 / 496;
+}
+
+.moment-sh {
+  background-image: url(../Links/NFLTeamLogos/Seahawks/Seattle_Seahawks_logo.svg.png);
+  background-size: 40%;
+  background-color: rgba(105, 190, 40, 0.75);
+}
+.moment img.moment-sb-sh {
+  width: 25%;
+  aspect-ratio: 280 / 295;
+}
+
+.moment-pts {
+  background-image: url(../Links/NFLTeamLogos/Patriots/patriots\ logo.png);
+  background-size: 40%;
+  background-color: rgba(0, 34, 68, 0.75);
+}
+
+.moment-phl {
+  background-image: url(../Links/NFLTeamLogos/Eagles/Eagles\ logo.png);
+  background-size: 40%;
+  background-color: rgba(0, 72, 81, 0.75);
+}
+
+.moment img.moment-sb-phl {
+  width: 30%;
+  aspect-ratio: 500 / 409;
+}
+
+.moment-kc {
+  background-image: url(../Links/NFLTeamLogos/Chiefs/chiefs\ logo.png);
+  background-size: 40%;
+  background-color: rgba(227, 25, 55, 0.75);
+}
+
 .moment img.moment-sb-kc {
   aspect-ratio: 800 / 628;
 }
