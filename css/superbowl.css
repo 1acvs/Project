@@ -400,7 +400,7 @@ background-color: #002244;;
 /*titles*/
 
 .section-title {
-  font-size: 175px;
+  font-size: 10vw;
   font-weight: bold;
   margin: 40px 0 20px 0;
   line-height: 1.2;
@@ -412,8 +412,9 @@ background-color: #002244;;
   color: #7BA5C8;
   text-align: left;
   display: block;
-  font-family: "Black Ops One"
+  font-family: "Black Ops One";
   letter-spacing: 2px;
+  font-size: 10vw;
 }
 
 .section-title::after {
@@ -421,16 +422,17 @@ background-color: #002244;;
   text-align: right;
   color: #B84C4C;
   display: block;
-  font-family: "Black Ops One"
-  letter-spacing: 4px;
+  font-family: "Black Ops One";
+  font-size: 10vw;
 }
 
 .path-title {
-  font-size: 165px;
+  font-size: 10vw;
   font-weight: bold;
   margin: 40px 0 20px 0;
   line-height: 1.2;
-  font-family: "Black Ops One"
+  font-family: "Black Ops One";
+
 }
 
 
@@ -439,8 +441,9 @@ background-color: #002244;;
   text-align: left;
   color: #7BA5C8;
   display: block;
-  font-family: "Black Ops One"
-  letter-spacing: 2px;
+  font-family: "Black Ops One";
+  font-size: 10vw;
+  
  }
 
  .path-title::after {
@@ -450,7 +453,7 @@ background-color: #002244;;
   display: block;
   font-family: "Black Ops One"
   letter-spacing: 2px;
-  font-size: 165px;
+  font-size: 10vw;
 }
 
 .description {
@@ -569,7 +572,7 @@ background-color: #002244;;
 
 
 .main-header {
-      background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%);
+      background-color:#D3BC8D ;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
     }
@@ -599,10 +602,8 @@ background-color: #002244;;
       white-space: nowrap;
     }
 
-    .logo::before {
-      content: '🏈';
-      font-size: 1.8rem;
-    }
+    
+    
 
     .NFLlogo {
       width: 120px;
@@ -617,8 +618,8 @@ background-color: #002244;;
 
     .tagline {
       font-size: 1.2rem;
-      font-style: italic;
-      color: #c0c0c0;
+      font-family: "Black Ops One";
+      color: #002244;
       text-align: center;
       letter-spacing: 1px;
       margin: 0;
@@ -652,6 +653,7 @@ background-color: #002244;;
       position: relative;
       overflow: hidden;
       white-space: nowrap;
+      font-family: "Black Ops One";
     }
 
     .nav-list li a::before {
@@ -816,7 +818,7 @@ background-color: #002244;;
         }
 
         .header {
-            background: #000000;
+            background: #002244;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -843,7 +845,7 @@ background-color: #002244;;
 
         .main-container {
             display: flex;
-            background: linear-gradient(135deg, #000019 0%, #16213e 100%);
+            background: #002244;
             position: relative;
             padding: 60px;
         }
@@ -968,6 +970,81 @@ background-color: #002244;;
                 top: auto;
                 margin: 30px 0;
             }
+
+            
+    .main-footer {
+      width: 100%;
+      background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1e 100%);
+      color: #ffffff;
+      padding: 80px 40px 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .main-footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(201, 162, 39, 0.5) 20%, 
+        rgba(244, 208, 63, 0.8) 50%, 
+        rgba(201, 162, 39, 0.5) 80%, 
+        transparent 100%);
+    }
+
+    .footer-content {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .footer-main-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+
+    .footer-bottom {
+      text-align: center;
+    }
+
+    .footer-champions {
+      margin-bottom: 40px;
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    .champion-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #c9a227 0%, #f4d03f 50%, #c9a227 100%);
+      background-size: 200% 100%;
+      color: #0f0f1e;
+      padding: 18px 45px;
+      border-radius: 50px;
+      font-weight: 900;
+      font-size: 18px;
+      letter-spacing: 4px;
+      box-shadow: 0 8px 32px rgba(201, 162, 39, 0.5),
+                  inset 0 2px 4px rgba(255, 255, 255, 0.3);
+      animation: shimmer 3s ease-in-out infinite;
+      position: relative;
+
+
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
